@@ -1,0 +1,435 @@
+:root {
+    --color--1: #dcb8ec;
+    --color--2: #a5f2e4;
+    --color--3: #9894e8;
+    --color--4: #7d7cd1;
+    --color--5: #ececec;
+}
+
+#wrap {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container .inner-container {
+    width: 100%;
+    height: auto;
+}
+
+.container .inner-container .index-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container .inner-container .index-con .sections {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.container .inner-container .index-con .sections .section.sec1 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul {
+    width: 100%;
+    height: inherit;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li:nth-child(1) {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    background: linear-gradient(rgb(165, 242, 228), rgb(220, 184, 236), rgb(255, 255, 255));
+}
+
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li .flower span {
+    height: auto;
+    position: absolute;
+    display: block;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li .flower span img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li h2.logo {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+/* violet flower */
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.vf1 {
+    width: 320px;
+    left: 400px;
+    top: 120px;
+    transform: scale(0.3);
+    transition: all 2s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.vf2 {
+    width: 245px;
+    left: 440px;
+    top: 142px;
+    transform: scale(0.3);
+    transition: all 5s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.vf3 {
+    width: 120px;
+    left: 499px;
+    top: 210px;
+    transform: scale(0.3);
+    transition: all 8s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.vf4 {
+    width: 50px;
+    left: 536px;
+    top: 244px;
+    transform: scale(0.3);
+    transition: all 10s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.vf5 {
+    width: 47px;
+    left: 538px;
+    top: 244px;
+    transform: scale(0.3);
+    transition: all 12s;
+}
+
+/* pink flower */
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.pf1 {
+    width: 250px;
+    left: 120px;
+    top: 200px;
+    transform: scale(0.3);
+    transition: all 3s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.pf2 {
+    width: 185px;
+    left: 140px;
+    top: 235px;
+    transform: scale(0.3);
+    transition: all 6s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.pf3 {
+    width: 74px;
+    left: 197px;
+    top: 286px;
+    transform: scale(0.3);
+    transition: all 8s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.pf4 {
+    width: 32px;
+    left: 218px;
+    top: 307px;
+    transform: scale(0.3);
+    transition: all 10s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.pf5 {
+    width: 50px;
+    left: 209px;
+    top: 298px;
+    transform: scale(0.3);
+    transition: all 11s;
+}
+
+/* mint flower */
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.mf1 {
+    width: 250px;
+    left: 650px;
+    top: 240px;
+    transform: scale(0.2);
+    transition: all 3s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.mf2 {
+    width: 200px;
+    left: 676px;
+    top: 278px;
+    transform: scale(0.2);
+    transition: all 5s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.mf3 {
+    width: 80px;
+    left: 735px;
+    top: 327px;
+    transform: scale(0.2);
+    transition: all 8s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.mf4 {
+    width: 37px;
+    left: 756px;
+    top: 350px;
+    transform: scale(0.2);
+    transition: all 10s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.mf5 {
+    width: 48px;
+    left: 750px;
+    top: 345px;
+    transform: scale(0.2);
+    transition: all 12s;
+}
+
+/* white flower1 */
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.f1 {
+    width: 130px;
+    left: 90px;
+    top: 160px;
+    transform: scale(0.2);
+    transition: all 3s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.f2 {
+    width: 100px;
+    left: 112px;
+    top: 175px;
+    transform: scale(0.2);
+    transition: all 5s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.f3 {
+    width: 50px;
+    left: 133px;
+    top: 200px;
+    transform: scale(0.2);
+    transition: all 8s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.f4 {
+    width: 20px;
+    left: 147px;
+    top: 216px;
+    transform: scale(0.2);
+    transition: all 10s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.f5 {
+    width: 20px;
+    left: 146px;
+    top: 216px;
+    transform: scale(0.2);
+    transition: all 13s;
+}
+
+/* white flower2 */
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wf1 {
+    width: 180px;
+    left: 310px;
+    top: 290px;
+    transform: scale(0.2);
+    transition: all 3s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wf2 {
+    width: 140px;
+    left: 323px;
+    top: 316px;
+    transform: scale(0.2);
+    transition: all 5s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wf3 {
+    width: 80px;
+    left: 355px;
+    top: 340px;
+    transform: scale(0.2);
+    transition: all 7s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wf4 {
+    width: 40px;
+    left: 374px;
+    top: 361px;
+    transform: scale(0.2);
+    transition: all 9s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wf5 {
+    width: 40px;
+    left: 373px;
+    top: 361px;
+    transform: scale(0.2);
+    transition: all 11s;
+}
+
+/* white flower3 */
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wwf1 {
+    width: 130px;
+    left: 568px;
+    top: 350px;
+    transform: scale(0.2);
+    transition: all 3s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wwf2 {
+    width: 100px;
+    left: 590px;
+    top: 365px;
+    transform: scale(0.2);
+    transition: all 8s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wwf3 {
+    width: 50px;
+    left: 611px;
+    top: 390px;
+    transform: scale(0.2);
+    transition: all 9s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wwf4 {
+    width: 30px;
+    left: 621px;
+    top: 401px;
+    transform: scale(0.2);
+    transition: all 10s;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .gallery>ul>li span.wwf5 {
+    width: 30px;
+    left: 620px;
+    top: 401px;
+    transform: scale(0.2);
+    transition: all 12s;
+}
+
+.flower-anim {
+    animation: sca1 10s infinite reverse;
+
+}
+
+@keyframes sca1 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: rotate(30deg) translate(10px) scale(0.9);
+    }
+
+    100% {
+        transform: rotate(0) translate(0) scale(1);
+    }
+}
+
+@keyframes sca2 {
+    0% {
+        transform: scale(1), translate(20px);
+    }
+
+    50% {
+        transform: scale(0.8), translate(-10px);
+    }
+
+    100% {
+        transform: scale(1), translate(0);
+    }
+}
+
+/* bcon */
+.container .inner-container .index-con .sections .section.sec1 .bcon {
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .bcon span {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, rgb(165, 242, 228), rgb(152, 148, 232));
+    border-radius: 50%;
+    box-shadow: 0 0 4px 1px var(--color--3);
+}
+
+.container .inner-container .index-con .sections .section.sec1 .dots {
+    width: 100%;
+    height: auto;
+    bottom: 20px;
+    left: 0;
+    position: absolute;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .dots .items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .dots .items>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .inner-container .index-con .sections .section.sec1 .dots .items>ul>li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(165, 242, 228), rgb(152, 148, 232));
+    box-shadow: 0 0 4px 0 var(--color--3);
+
+}
+
+.container .inner-container .index-con .sections .section.sec1 .dots .items>ul>li.on {
+    background: linear-gradient(rgb(165, 242, 228), rgb(152, 148, 232));
+    box-shadow: none;
+    box-shadow: 0 0 6px 4px var(--color--3);
+}
+
+
+
+
+@keyframes rotat {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
